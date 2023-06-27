@@ -1,0 +1,76 @@
+body{
+	background-color: rgba(220,220,220,1);
+	color: rgb(30,30,30);
+	font-family: Helvetica;
+	font-size: 18px;
+}
+h1,h2,h3{
+	font-family: Courier;
+}
+h1 {
+	color: red;
+	font-size: 35px;
+}
+
+h2{
+	color: green;
+	font-size: 25px;
+}
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 7px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-red {
+	background-color: rgba(230, 15, 20,0.6);
+	color: white;
+	text-decoration: none;
+	padding: 15px 20px;
+	border-radius: 5px;
+}	
+.btn-red:hover {
+	background-color: grey;
+	color: black;
+	font-weight: bolder
+}
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+ul li {
+	display: inline;
+	padding: 10px;
+}
+ul i {
+	font-size: 50px;
+	color: #264D90;
+}
+ul i:hover {
+	color: black;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
